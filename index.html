@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap-cerulean.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- menu -->
+        <div class="menu">
+                <!-- premier partie du menu -->
+                <div class="row" style="background-color: white;">
+                    <!-- le logo -->
+                      <div class="col-sm-12 col-md-3 col-lg-3" id="logo">
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" id="menu_borg" width="22" height="22" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></a> 
+                         <a href=""><img src="./image/logo.png" width="100" height="40" id="logo_image"></a>
+                      </div>
+                    <!-- bare de recherche -->
+                    <div class="col-sm-12 col-md-6 col-lg-"  id="barre_recherche">
+                        <div class="input-group"> 
+                            <input type="text" class="form-control" style="height: 32px;"> 
+                              <span class="input-group-btn"> 
+                                <button class="btn btn-default" type="button" style="height: 32px; width: 70px;"> 
+                                   <a href=""> <img src="./image/rech.png" width="20" height="20 " style="margin-top: -2px;"  > </a>
+                                </button>
+                            </span> 
+                        </div>
+                     </div>
+                    <!-- icon en haut a droit -->
+                    <div class="col-sm-12 col-md-3 col-lg-3" id="les_icon">
+                        <a href=""> <svg xmlns="http://www.w3.org/2000/svg" id="icon_notification" width="24" height="24" viewBox="0 0 24 24"><path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"/></svg></a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z"/></svg> </a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/></svg> </a>
+                        <a href=""><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg></a>
+                        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg></a>
+                         
+                        </span>
+                    </div>
+                 </div>
+                    <!-- le tirer -->
+                 <div class="tiret">
+
+                 </div>
+                   
+                   
+                <!-- deuxieme partie du menu contenant les bouton-->
+                <div class="row">
+                    <!-- pour laisser une spage a gauche avant le bouton -->
+                    <div class="col-md-2"  style="z-index: 0; background-color: transparent;">
+
+                    </div>
+                    <div class="col-md-10">
+                        <div class="les_bouton"  >
+                           
+                            <div class="bouton">
+                                 <ul class="pager">
+                                     <li>
+                                         <a   style="background-color: grey; color:beige" href="" >Tous</a>
+                                     </li>
+                                 </ul>
+                            </div>
+                            <div class="bouton">
+                               
+                                <ul class="pager">
+                                    <li>
+                                        <a class="btn btn-default " href="" >Programmation informatique</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bouton">
+                                                                
+                                <ul class="pager">
+                                    <li>
+                                        <a class="btn btn-default " href="" > Mouride</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bouton">
+                                
+                                                               
+                                <ul class="pager">
+                                    <li>
+                                        <a class="btn btn-default " href="" > Duffusions en Direct</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bouton">
+                              
+                                <ul class="pager">
+                                    <li>
+                                        <a class="btn btn-default " href="" >   Serie Televisees</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bouton">
+                                 <ul class="pager">
+                                    <li>
+                                        <a class="btn btn-default " href="" >   Microsoft Excel </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bouton">
+                                
+                                <ul class="pager">
+                                    <li>
+                                        <a class="btn btn-default " href="" >   Adobe photoshop  </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- fin menu -->
+        <!-- body -->
+        <div class="corps">
+                <div class="row">
+                    <!-- les liens a gauche du body -->
+                     
+                        <div class="col-1 col-md-2" style="  z-index: 10; margin-top: -3%;">
+                            <div data-spy="scroll" class="lien_gauche" data-target="#navbar-example" style="height:550px;overflow:auto; position: relative;"> 
+                               
+                                <li style="list-style: none;">
+                                    <a href="">
+                                        <div class="clearfix">
+                                            <div class="pull-left">
+                                                <!-- icon svg -->
+                                                <img src="./image/icon_accueil.png" width="28" height="28" class="img_accueil_rouge">
+                                                 
+                                            </div>
+                                            <div class="pull-center">Accueil</div>
+                                        </div>
+                                        
+                                        
+                                    </a>
+                                </li>
+                                <li style="list-style: none;">
+                                    <a href="">
+                                        <div class="clearfix">
+                                            <div class="pull-left">
+                                                <!-- icon svg -->
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z"/>
+                                                </svg> 
+                                            </div>
+                                            <div class="pull-center">Explorer</div>
+                                        </div>
+                                        
+                                        
+                                    </a>
+                                </li>
+                                <li style="list-style: none;">
+                                    <a href="">
+                                        <div class="clearfix">
+                                            <div class="pull-left">
+                                                <!-- icon svg -->
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M20 8H4V6h16v2zm-2-6H6v2h12V2zm4 10v8c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2v-8c0-1.1.9-2 2-2h16c1.1 0 2 .9 2 2zm-6 4l-6-3.27v6.53L16 16z"/>
+                                                </svg> 
+                                            </div>
+                                            <div class="pull-center">Abonnements</div>
+                                        </div>
+                                        
+                                        
+                                    </a>
+                                </li>
+                                <!-- trait de separation -->
+                                <hr class="les_petit_tire_a_gauche">
+                                <li style="list-style: none;">
+                                    <a href="">
+                                        <div class="clearfix">
+                                            <div class="pull-left">
+                                                <!-- icon svg -->
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8 12.5v-9l6 4.5-6 4.5z"/>
+                                                </svg> 
+                                            </div>
+                                            <div class="pull-center">Bibliotheque</div>
+                                        </div>
+                                        
+                                        
+                                    </a>
+                                </li>
+                                <li style="list-style: none;">
+                                    <a href="">
+                                        <div class="clearfix">
+                                            <div class="pull-left">
+                                                <!-- icon svg -->
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                    <path d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"/>
+                                                </svg>
+                                            </div>
+                                            <div class="pull-center">Historique</div>
+                                        </div>
+                                      </a>
+                                </li>
+                             <!-- deuxiem trait de separation -->
+                                <hr class="les_petit_tire_a_gauche">
+                                <div class="connexion">
+                                    <p class="petit_text_de_description_connexion">
+                                        Connectez-vous à YouTube 
+                                        pour cliquer sur "J'aime", 
+                                        ajouter un commentaire et 
+                                        vous abonner.
+                                    </p>
+                                    <div>
+                                        <li style="list-style: none;">
+                                        <a href=""  >
+                                            <img src="./image/user.png" width="25" height="25"> 
+                                             &nbsp;<span style="color:#196eed;">SE CONNECTER</span> </a>
+                                    </li>
+                                    </div>
+                                   
+                                </div>
+                                <!-- troixieme trait de separation -->
+                                <hr class="">
+                                <div>
+                                    <h5 class="text">LE MEILLEUR DE YOUTUBE</h5>
+                                    <div>
+                                        <!-- Music -->
+                                        <li style="list-style: none;">
+                                            <a href="">
+                                                <div class="clearfix">
+                                                    <div class="pull-left">
+                                                        <!-- icon svg -->
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 5h-3v5.5c0 1.38-1.12 2.5-2.5 2.5S10 13.88 10 12.5s1.12-2.5 2.5-2.5c.57 0 1.08.19 1.5.51V5h4v2zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"/>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="pull-center">Musique</div>
+                                                </div>
+                                              </a>
+                                        </li>
+                                        <!-- sport -->
+                                        <li style="list-style: none;">
+                                            <a href="">
+                                                <div class="clearfix">
+                                                    <div class="pull-left">
+                                                        <!-- icon svg -->
+                                                        <svg style="margin-left: 12px; margin-right: 24px;" xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24" viewBox="0 0 24 24">
+                                                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                                                        </svg> 
+                                                    </div>
+                                                    <div class="pull-center">Sport</div>
+                                                </div>
+                                              </a>
+                                        </li>
+                                        <!-- Jeux video -->
+                                        <li style="list-style: none;">
+                                            <a href="">
+                                                <div class="clearfix">
+                                                    <div class="pull-left">
+                                                        <!-- icon svg -->
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/>
+                                                        </svg>
+                                                         
+                                                    </div>
+                                                    <div class="pull-center">Jeux Video</div>
+                                                </div>
+                                              </a>
+                                        </li>
+                                        <!-- Film -->
+                                        <li style="list-style: none;">
+                                            <a href="">
+                                                <div class="clearfix">
+                                                    <div class="pull-left">
+                                                        <!-- icon svg -->
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/>
+                                                        </svg> 
+                                                    </div>
+                                                    <div class="pull-center">Film</div>
+                                                </div>
+                                              </a>
+                                        </li>
+                                        <!-- actualite -->
+                                        <li style="list-style: none;">
+                                            <a href="">
+                                                <div class="clearfix">
+                                                    <div class="pull-left">
+                                                        <!-- icon svg -->
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <path d="M22 9V7h-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2v-2h-2V9h2zm-4 10H4V5h14v14zM6 13h5v4H6zm6-6h4v3h-4zM6 7h5v5H6zm6 4h4v6h-4z"/>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="pull-center">Actualité</div>
+                                                </div>
+                                              </a>
+                                        </li>
+                                        <!--  direct -->
+                                        <li style="list-style: none;">
+                                            <a href="">
+                                                <div class="clearfix">
+                                                    <div class="pull-left">
+                                                        <!-- icon svg -->
+                                                        <svg style="margin-left: 12px; margin-right: 24px;" xmlns="http://www.w3.org/2000/svg"
+                                                        width="24" height="24" viewBox="0 0 24 24">
+                                                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                                                        </svg> 
+                                                    </div>
+                                                    <div class="pull-center">Direct</div>
+                                                </div>
+                                              </a>
+                                        </li>
+                                        <!-- video 360 degre -->
+                                        <li style="list-style: none;">
+                                            <a href="">
+                                                <div class="clearfix">
+                                                    <div class="pull-left">
+                                                        <!-- icon svg -->
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <path d="M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8zm4-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="pull-center">Video 360</div>
+                                                </div>
+                                              </a>
+                                        </li>
+                                        <hr class="les_petit_tire_a_gauche">
+                                         <!-- Caine -->
+                                         <li style="list-style: none;">
+                                            <a href="">
+                                                <div class="clearfix">
+                                                    <div class="pull-left">
+                                                        <!-- icon svg -->
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="pull-center">Video 360</div>
+                                                </div>
+                                              </a>
+                                        </li>
+                                        <hr class="les_petit_tire_a_gauche">
+
+
+                                </div>
+                                </div>
+                                <div>
+                                    <h5 class="text">AUTRES CONTENUES YOUTUBE</h5>
+                                    <li style="list-style: none;">
+                                        <a href="">
+                                            <div class="clearfix">
+                                                <div class="pull-left">
+                                                    <!-- icon svg -->
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                        <path d="M6 3H3v3c1.66 0 3-1.34 3-3zm8 0h-2c0 4.97-4.03 9-9 9v2c6.08 0 11-4.93 11-11zm-4 0H8c0 2.76-2.24 5-5 5v2c3.87 0 7-3.13 7-7zm0 18h2c0-4.97 4.03-9 9-9v-2c-6.07 0-11 4.93-11 11zm8 0h3v-3c-1.66 0-3 1.34-3 3zm-4 0h2c0-2.76 2.24-5 5-5v-2c-3.87 0-7 3.13-7 7z"/>
+                                                    </svg>
+                                                </div>
+                                                <div class="pull-center">Video 360</div>
+                                            </div>
+                                          </a>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                     
+                   
+                    <!-- le contenu des video -->
+                    <div class="col-md-10">
+                        <!-- jumbotron pour le fond gris sur les video -->
+                        <div class="row les_video" data-spy="scroll"  data-target="#navbar-example" style="height:500px;overflow:auto; position: relative;"> 
+                        <div class="jumbotron" style="margin-top: 15px;">
+                                
+                                <div class="col-12  col-md-6 col-lg-3 ">
+                                    <iframe style="width: 260px; height: 180px;" src="https://www.youtube.com/embed/wu1Sk8iOPnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="description">
+                                                <h2 class="">Découverte du CSS (18/31) : <br> Media query et le "responsive"</h2>
+                                        
+                                        Grafikart.fr <br>
+                                        38 k vues
+                                        il y a 2 ans
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <iframe style="width: 260px; height: 180px;" src="https://www.youtube.com/embed/cxfBkR0mx30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                     
+                                    <p class="description">
+                                        <h2 class="descripton_gras">Découverte du CSS (18/31) : <br> Media query et le "responsive"</h2>
+                                        
+                                        Grafikart.fr <br>
+                                        38 k vues
+                                        il y a 2 ans
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <iframe  style="width: 260px; height: 180px;" src="https://www.youtube.com/embed/fXuYTED14eE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                                    <p class="description">
+                                        <h2 class="descripton_gras">Découverte du CSS (18/31) : <br> Media query et le "responsive"</h2>
+                                        
+                                        Grafikart.fr <br>
+                                        38 k vues
+                                        il y a 2 ans
+                                    </p> 
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <iframe style="width: 260px; height: 180px;" src="https://www.youtube.com/embed/x4fDBYCYglc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  
+                                    <p class="description">
+                                        <h2 class="descripton_gras">Découverte du CSS (18/31) : <br> Media query et le "responsive"</h2>
+                                        
+                                        Grafikart.fr <br>
+                                        38 k vues
+                                        il y a 2 ans
+                                    </p>
+                                </div>
+                           
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-3 ">
+                                    <iframe style="width: 260px; height: 180px;" src="https://www.youtube.com/embed/L0uNai3XyKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                               
+                                    <p class="description">
+                                        <h2 class="descripton_gras">Découverte du CSS (18/31) : <br> Media query et le "responsive"</h2>
+                                        
+                                        Grafikart.fr <br>
+                                        38 k vues
+                                        il y a 2 ans
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3 ">
+                                    <iframe style="width: 260px; height: 180px;" src="https://www.youtube.com/embed/Yg5xKMXH47k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                               
+                                    <p class="description">
+                                        <h2 class="descripton_gras">Découverte du CSS (18/31) : <br> Media query et le "responsive"</h2>
+                                        
+                                        Grafikart.fr <br>
+                                        38 k vues
+                                        il y a 2 ans
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3 ">
+                                    <iframe style="width: 260px; height: 180px;" src="https://www.youtube.com/embed/hPfgekYUKgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                              
+                                    <p class="description">
+                                        <h2 class="descripton_gras">Découverte du CSS (18/31) : <br> Media query et le "responsive"</h2>
+                                        
+                                        Grafikart.fr <br>
+                                        38 k vues
+                                        il y a 2 ans
+                                    </p>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3">
+                                    <iframe style="width: 260px; height: 200px;" src="https://www.youtube.com/embed/wKatvNTAPVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                              
+                                    <p class="description">
+                                        <h2 class="descripton_gras">Découverte du CSS (18/31) : <br> Media query et le "responsive"</h2>
+                                        
+                                        Grafikart.fr <br>
+                                        38 k vues
+                                        il y a 2 ans
+                                    </p>
+                                </div>
+                            </div>
+                             
+                         </div>
+                        </div>
+                        </div>
+                    </div>
+                       
+                    </div>
+                </div>
+        </div>
+        <!-- fin menu -->
+    </div>
+</body>
+</html>

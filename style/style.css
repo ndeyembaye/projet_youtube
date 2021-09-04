@@ -1,0 +1,127 @@
+.menu{
+    position: fixed;
+    z-index: 1;
+    
+}
+.tiret{
+   position: absolute;
+   z-index: 15;
+   right:10px ;
+   top: 65px;
+   border-top: 1px solid gainsboro;
+   width: 1120px;
+}
+.corps{
+      position: relative;
+    z-index: 0;
+    margin-top:8%;
+}
+#logo{
+    margin-top: 15px;
+}
+.jumbotron{
+    margin-top: 20px;
+}
+#menu_borg{
+    margin-top: 15px;
+   margin-right: 20px;
+   margin-left: 15px;
+}
+#logo_image{
+    margin-top: -2px;
+    margin-bottom: 15px;
+}
+#barre_recherche{
+    margin-top: 22px;
+}
+#icon_notification{
+    margin-top: 24px;
+    margin-right: 150px;
+}
+
+ /* mise en forme des lien a  */
+ .lien_gauche{
+    margin-top: 30px;
+    
+}
+.les_petit_tire_a_gauche{
+    margin-top: -1px;
+}
+.lien_gauche li{
+    width: 160px;
+    margin: 5px;
+
+}
+.lien_gauche li a{
+    background-color: white;
+    display: block;
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    
+
+}
+.lien_gauche li a :hover{
+    background-color: gainsboro;
+}
+
+/* fin de la mise en form des lien gauuche */
+  li a svg{
+    margin-left: 12px;
+     margin-right: 24px;
+  }
+  .img_accueil_rouge{
+    margin-left: 12px;
+     margin-right: 24px;
+  }
+.connexion a{
+    border: 2px solid #196eed; 
+    padding:  9px 5px 9px 10px ;
+     text-decoration: none; 
+     font-size: 12px; 
+     color: #196eed;
+      font-weight: bold;
+       
+}
+
+.petit_text_de_description_connexion{
+    font-family: Roboto, Arial, sans-serif;
+  
+  }
+   .connexion div{
+       margin-top: 20px;
+   }
+  
+.les_bouton{
+    display: flex;
+    margin-left: 10px;
+    margin-top: -20px;
+    background-color: white;
+}
+.les_bouton div{
+    margin-left: 10px;
+}
+.description{
+    margin-left: 20px;
+}
+h2{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: gray;
+}
+.jumbotron div{
+    margin-top:-15px;
+}
+
+/* ::-webkit-scrollbar{
+    display: none;
+} */
